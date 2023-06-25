@@ -1,0 +1,165 @@
+.navbar-container {
+    display: flex;
+    border: 1px solid rgb(147, 142, 142);
+    justify-content: space-around;
+    padding: 10px;
+    list-style: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 20px;
+    background-color: rgb(8, 29, 59);
+    border-radius: 20px;
+
+}
+
+
+.btn-prev {
+    background-color: rgba(155, 152, 151, 0.995) !important;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    ;
+    border: none;
+    margin: 10px;
+    color: rgb(232, 226, 226);
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.btn-next {
+    background-color: rgb(118, 167, 54);
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    ;
+    border: none;
+    margin: 10px;
+    color: rgb(232, 226, 226);
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.btn:hover {
+    border: 2px solid rgb(27, 84, 100);
+}
+
+.home-container {
+    width: 200px;
+    background-color: rgb(15, 54, 80);
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+    color: rgb(186, 183, 183);
+
+}
+.home-container:hover{
+    color: rgb(216, 215, 215);
+    text-decoration: underline;
+}
+
+.profile-container {
+    border: 1px solid rgb(75, 122, 17);
+    width: 20%;
+    margin: 20px;
+}
+
+.profile-container>p {
+    color: rgb(103, 168, 30);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.profile-container>img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-container>button {
+    padding: 5px 10px;
+    border: none;
+    margin: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid red;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.profile-container>button:hover {
+    background-color: rgb(152, 67, 67);
+    color: white;
+
+
+}
+
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(94, 91, 91);
+}
+
+.link-tag {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    color: rgb(160, 158, 158);
+}
+
+.link-tag:hover {
+    color: rgb(216, 218, 216);
+    text-decoration: underline;
+}
+
+.faqs-container {
+
+    width: 50%;
+    height: 250px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.faqs-container>p {
+    color: rgb(137, 135, 135);
+    font-size: 15px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.faqs-link {
+    border: 1px solid rgb(207, 33, 33);
+    padding: 15px;
+    text-decoration: none;
+    cursor: pointer;
+
+
+
+}
+
+.faqs-link:hover {
+    text-decoration: underline;
+    color: rgb(110, 169, 22);
+}
+
+.header-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-size: larger;
+}
+
+.table-head {
+    /* background-color: red; */
+    border: 1px solid rgb(31, 30, 30);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    background-color: rgb(220, 216, 216);
+
+}
+
+.table {
+    border: 1px solid rgb(158, 156, 156);
+    padding: 10px;
+}
